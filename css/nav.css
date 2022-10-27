@@ -2,7 +2,8 @@
 .topnav {
     margin: auto;
     background-color: #2BBBD8;
-    overflow: auto;
+    max-height: 10%;
+    overflow: hidden;
     
 }
 
@@ -15,17 +16,24 @@
     text-decoration: none;
     text-transform: capitalize;
     font-size: 16px;
+    max-height: 22px;
 }
 
 .topnav a.hover, .active {
     background-color: #FCD271;
+    height: max-content;
 }
 
 .topnav .icon {
     display: none;
 }
-.nav-logo{
-    height: auto;
+
+#ghIcon, #liIcon{
+     text-align:justify
+
+}
+.navLogo{
+    height: 1em;
 }
 
 /* Responsive rules - apply when screen width is less than 1200px */
@@ -62,6 +70,7 @@
 @media all and (min-width:1200px) {
     .topnav {
         width: 80%;
+        /* height: 45px; */
     }
 }
 
