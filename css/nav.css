@@ -24,6 +24,9 @@
 .topnav .icon {
     display: none;
 }
+.nav-logo{
+    height: auto;
+}
 
 /* Responsive rules - apply when screen width is less than 1200px */
 
