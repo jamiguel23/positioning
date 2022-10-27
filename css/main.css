@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
+    background-color: #F78D3F;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -37,7 +37,7 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#102E37;
     text-decoration: none;
 }
 
