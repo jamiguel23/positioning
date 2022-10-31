@@ -23,6 +23,10 @@ h1 {
     
 }
 
+h1.page-header{
+    
+}
+
 main.wrapper {
     background-color: white;
     overflow: auto;
