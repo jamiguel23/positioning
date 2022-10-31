@@ -34,6 +34,10 @@ img {
     margin: 5px;
 }
 
+/* source {
+    margin: 5px;
+} */
+
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
 }
@@ -116,6 +120,7 @@ footer {
     
     picture.profile img {
         width: 100%;
+        margin: 5px;
     }
     
 }
