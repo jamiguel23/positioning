@@ -1,3 +1,5 @@
-# html-template
+# positioning
 
-This repo creates a template page
+Deployed page:
+
+https://jamiguel23.github.io/positioning/
