@@ -1,6 +1,3 @@
-# portal
+# html-template
 
-This repo creates a page on which I store my web projects
-
-Deployed link:
-<https://jamiguel23.github.io/portal-1/>
+This repo creates a template page
