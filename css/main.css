@@ -114,6 +114,11 @@ footer {
 
  /* Start Social */
 
+ .social-container {
+    display: flex;
+    justify-content: space-evenly;
+  } 
+
  .fa {
     padding: 20px;
     font-size: 30px;
