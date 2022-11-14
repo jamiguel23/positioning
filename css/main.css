@@ -14,7 +14,7 @@ body {
 }
 
 ::selection {
-    color: #000; 
+    color: #000;
     background: #FCD271;
 }
 
@@ -24,7 +24,7 @@ h1 {
     background: #fff;
     line-height: 2.5em;
     border-radius: 25px 25px 0px 0px;
-    
+
 }
 
 /* h1.page-header{
@@ -32,7 +32,7 @@ h1 {
 } */
 
 main.wrapper {
-background-color: white;
+    background-color: white;
     overflow: auto;
     border-radius: 0px 0px 25px 25px;
 }
@@ -42,22 +42,21 @@ img {
     margin: 5px;
 }
 
-/* source {
-    margin: 5px;
-} */
 
 p {
-    margin: 1em; /* Top Right Bottom Left (TRBL) */
+    margin: 1em;
+    /* Top Right Bottom Left (TRBL) */
 }
 
-h2,h3 {
+h2,
+h3 {
     font-weight: normal;
     margin-left: 1em;
     line-height: 1em;
 }
 
 a {
-    color:#102E37;
+    color: #102E37;
     text-decoration: none;
 }
 
@@ -79,95 +78,104 @@ footer {
 /* Allows box to take up full space, ignoring padding/margin */
 * {
     box-sizing: border-box;
-  }
-  
- /* Create two equal columns that floats next to each other */
- .my-column {
+}
+
+/* Create two equal columns that floats next to each other */
+
+
+.text-align-center {
+    text-align: center;
+    background-color: aqua;
+}
+
+.margin-auto>div {
+    margin: auto;
+    width: 50%;
+    background-color: beige;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.my-column {
     float: left;
     width: 50%;
     padding: 10px;
-     min-height: 300px; /*Can be removed. Only for demonstration */
-  }
-   /* Clear floats after the columns */
-  .my-row:after {
+    min-height: 300px;
+    /*Can be removed. Only for demonstration */
+}
+
+.my-row:after {
     content: "";
     display: table;
     clear: both;
-  }
- 
-  .my-column {
+}
+
+.my-column {
     width: 100%;
-  }
+}
 
+/* Start Social */
 
-.text-align-center{
-    text-align:center;
-    background-color:aqua;
- }
-  
- .margin-auto > div{
-    margin:auto;
-    width:50%;
-    background-color:beige;
-    text-align:center;
- }
-
- /* Start Social */
-
- .social-container {
+.social-container {
     display: flex;
     justify-content: space-evenly;
-  } 
+}
 
- .fa {
+.fa {
     padding: 20px;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-  }
-   .fa:hover {
-      opacity: 0.7;
-  }
-   .fa-facebook {
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
     background: #3B5998;
     color: white;
     padding: 20px 25px
-  }
-   .fa-twitter {
+}
+
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
-   .fa-youtube {
+}
+
+.fa-youtube {
     background: #bb0000;
     color: white;
-  }
-   .fa-instagram {
+}
+
+.fa-instagram {
     background: #125688;
     color: white;
-  }
-   .fa-snapchat-ghost {
+}
+
+.fa-snapchat-ghost {
     background: #fffc00;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
+}
 
-  /* flexible image rules start here */
- 
-.flexible img{
-    width:100%;
- }
-  
- .flexible{
+/* flexible image rules start here */
+
+.flexible img {
+    width: 100%;
+}
+
+.flexible {
     display: flex;
     justify-content: space-evenly;
- }
-  
- /* flexible image rules end here */
- 
- 
- 
+}
+
+/* flexible image rules end here */
+
+
+
 /* Responsive rules */
 
 /* DESKTOP */
@@ -176,18 +184,18 @@ footer {
         width: 80%;
         margin: auto;
     }
-    
+
     h1 {
         width: 79%;
         padding-left: 1%;
     }
-    
+
     picture.profile img {
         width: 50%;
         float: left;
         margin-right: 2em;
     }
-    
+
 }
 
 /* TABLET */
@@ -196,12 +204,12 @@ footer {
         width: 90%;
         margin: auto;
     }
-    
+
     h1 {
         width: 89%;
         padding-left: 1%;
     }
-    
+
     picture.profile img {
         width: 50%;
         float: right;
@@ -215,12 +223,12 @@ footer {
     main.wrapper {
         width: 100%;
     }
-    
+
     h1 {
         width: 99%;
         padding-left: 1%;
     }
-    
+
     picture.profile img {
         width: 95%;
         margin: 5px;
@@ -229,7 +237,7 @@ footer {
     /* used to position columns as vertical  */
     .my-column {
         width: 100%;
-      }
- 
-    
+    }
+
+
 }
