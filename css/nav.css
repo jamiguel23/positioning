@@ -28,14 +28,7 @@
     display: none;
 }
 
-#ghIcon, #liIcon{
-     text-align:justify
 
-}
-.navLogo{
-    height: 1em;
-    display: inline-block;
-}
 
 /* Responsive rules - apply when screen width is less than 1200px */
 
