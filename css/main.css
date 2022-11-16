@@ -66,6 +66,11 @@ a:hover {
     text-decoration: none;
 }
 
+main p, ul {
+    list-style-type: none;
+    text-align: center;
+}
+
 footer {
     clear: both;
     text-align: center;
