@@ -13,8 +13,8 @@ document
   );
 
 //set current year in span with id of this-year
-let d = new Date();
-let thisYear = d.getFullYear();
+let b= new Date();
+let thisYear = b.getFullYear();
 document.getElementById("this-year").innerHTML = thisYear;
 
 //manages mobile nav
